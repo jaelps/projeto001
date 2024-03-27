@@ -23,3 +23,11 @@ body {
 .box_numb {
   width: 50px;
 }
+
+.areaResposta {
+  display: flex;
+}
+
+#resposta {
+  margin-left: 10px;
+}
