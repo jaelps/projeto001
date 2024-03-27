@@ -1,6 +1,6 @@
 function capturaDados() {
-  var primNum = document.getElementById("n1").value;
-  var segundNum = document.getElementById("n2").value;
+  var primNum = Number(document.getElementById("n1").value);
+  var segundNum = Number(document.getElementById("n2").value);
   var operador = document.getElementById("minMenu").value;
   console.log(primNum);
   console.log(segundNum);
