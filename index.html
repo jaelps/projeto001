@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header></header>
+  <main class='box'>
+    <section class='box_central'>
+      <h1>Calculadora</h1>
+      <form>
+        <input type="text" name="tex" class='box_numb' id="n1">
+        <select name='minMenu' required='required' id='minMenu' >
+          <option value="">escolha</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">x</option>
+          <option value="/">/</option>
+        </select>
+        <input type="text" name="tex" class='box_numb' id="n2">
+        <button type="button" onclick='capturaDados()'>enviar</button>
+      </form>
+      <section>Resultado:<p id='resposta'></p></section>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
